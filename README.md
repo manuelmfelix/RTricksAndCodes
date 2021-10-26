@@ -19,3 +19,7 @@ In the app you can choose the days of the week to run the app, the time frame to
 ## File: "CP_website_info"
 
 Code which uses Rvest and RSelenium to get Origin | Destination information (every schedule, price, trains, etc) from "Comboios de Portugal" website.
+
+## File: "google_places_shiny"
+
+R code developed to get information from the Google Places API with a shiny interface.
