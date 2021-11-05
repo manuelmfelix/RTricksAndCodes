@@ -25,3 +25,18 @@ Code which uses Rvest and RSelenium to get Origin | Destination information (eve
 ## File: "google_places_shiny"
 
 R code developed to get information from the Google Places API with a shiny interface.
+
+## File: "R_cheat_sheet"
+
+R cheat sheet of different packages as an R file, ready to reuse all its functions.
+It will be updated with more information.
+For now, it includes functions for:
+- Base R
+- dplyr
+- ggplot2
+- rvest
+- html_tool
+- RSelenium
+- RTweet
+- Discordr
+- Slackr
