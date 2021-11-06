@@ -7,12 +7,6 @@ Codes I've created to solve problems I had along the way
 
 Code to read the information of multiple sheets of a password protected excel files, including its comments.
 
-## File: "get_website_info_rvest_RSelenium"
-
-In this code you may find two different ways to get information from the www.codigos-postais.pt website.
-The information I needed was the gps coordinates and street name of a list of postal codes.
-I've made two different approaches, one using "rvest" and another using "RSelenium".
-
 ## File: "googleMaps_Screenshot_ShinyApp"
 
 The present code shows a Shiny App that interacts with the googlemaps api to get periodic screenshots of the chosen places with the chosen zooms.
