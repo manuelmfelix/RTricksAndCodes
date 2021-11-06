@@ -12,10 +12,6 @@ Code to read the information of multiple sheets of a password protected excel fi
 The present code shows a Shiny App that interacts with the googlemaps api to get periodic screenshots of the chosen places with the chosen zooms.
 In the app you can choose the days of the week to run the app, the time frame to run the app, the last day to run the app and there is the possibility to choose a more frequent period for the screenshots.
 
-## File: "CP_website_info"
-
-Code which uses Rvest and RSelenium to get Origin | Destination information (every schedule, price, trains, etc) from "Comboios de Portugal" website.
-
 ## File: "google_places_shiny"
 
 R code developed to get information from the Google Places API with a shiny interface.
