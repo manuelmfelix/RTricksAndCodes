@@ -155,8 +155,8 @@ x <- rep(3:5,each=2) # Repeat elements of a vector
 
 # Get elements by index.
 x[3] # Get third element. Vector elements start in 1
-x[c(1,3)] # Get elements nº1 and nº3
-x[-3] # Get all elements except nº3
+x[c(1,3)] # Get elements nÂº1 and nÂº3
+x[-3] # Get all elements except nÂº3
 x[1:3] # Get elements 1 to 3
 x[-(1:3)] # Get all elements except 1:3
 
@@ -321,7 +321,10 @@ mean(x) # Mean
 max(x) # Largest element
 median(x) # Median
 min(x) # Smallest element
-quantile(x) # Percentage quantiles
+quantile(x) # Percentage quantiles (same as fivenum() function)
+summary(x) # Summaries of results, given for each column, if using a data frame
+range(x) # Gives minumim and maximum of all given arguments
+IQR(x) # Interquantile Range
 round(x, n) # Round to n decimal places
 rank(x) # Rank of elements
 signif(x, n) # Round to n significant figures
