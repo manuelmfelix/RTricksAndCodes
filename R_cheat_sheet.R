@@ -37,9 +37,6 @@ data(iris)
 
 data()
 
-
-
-
 #### Base R: Variables | Read and Write data----
 
 # Assign variables & Data Types
