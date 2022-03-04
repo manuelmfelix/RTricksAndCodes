@@ -422,6 +422,15 @@ hist(subset(iris, Species == "setosa")$Petal.Length,breaks=seq(0,8,l=17),xlim=c(
 hist(subset(iris, Species == "versicolor")$Petal.Length,breaks=seq(0,8,l=17),xlim=c(0,8),ylim=c(0,40))
 hist(subset(iris, Species == "virginica")$Petal.Length,breaks=seq(0,8,l=17),xlim=c(0,8),ylim=c(0,40))
 
+# Create box plot
+boxplot(iris$Sepal.Width)
+# In a boxplot, the box represents the middle 50% of the observation
+# Lowerend at 25%, of Q3 (quartile 1) and Upperend at 75%, or Q3
+# Line in the middle represents the median
+# whisker extends to the value that is not an outlier (lower and upper)
+# Lower wisker is given by subtracting 1.5xIQR to Q1
+# Upper wisker is given by adding 1.5xIQR to Q3
+
 # Simple plot with base R
 plot(iris$Sepal.Length,
      col='steelblue',
