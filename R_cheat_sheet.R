@@ -434,7 +434,7 @@ boxplot(iris$Sepal.Width)
 # Lower wisker is given by subtracting 1.5xIQR to Q1
 # Upper wisker is given by adding 1.5xIQR to Q3
 
-# Simple plot with base R
+# Simple scatter plot with base R
 plot(iris$Sepal.Length,
      col='steelblue',
      main='Histogram',
