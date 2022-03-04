@@ -234,6 +234,9 @@ View(a) # Display the full data frame
 dim(iris) # nr of rows and nr of columns
 names(iris) # Get names of columns
 
+subset(iris, Sepal.Length > 5, select = c(Sepal.Length, Sepal.Width))
+# Get a subset of the data based on a condition
+# select is used to select the columns we want to see
 
 #### Base R: Functions and Logic
 
